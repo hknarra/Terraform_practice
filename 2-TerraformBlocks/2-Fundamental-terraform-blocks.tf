@@ -9,7 +9,7 @@ terraform {
     }
     random = {
       source = "hashicorp/random"
-      version = "4.26.0"
+      version = "3.3.2"
     }
   }
   # Remote Backend for storing Terraform State in S3 bucket 
