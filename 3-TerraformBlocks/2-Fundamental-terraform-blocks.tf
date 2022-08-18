@@ -1,6 +1,6 @@
 terraform {
   # Required Terraform Version
-  required_version = "~> 1.1.0"
+  required_version = "~> 1.2.0"
   # Required Providers and their Versions
   required_providers {
     aws = {
@@ -9,7 +9,7 @@ terraform {
     }
     random = {
       source = "hashicorp/random"
-      version = "3.3.2"
+      version = "3.2.2"
     }
   }
   # Remote Backend for storing Terraform State in S3 bucket 
