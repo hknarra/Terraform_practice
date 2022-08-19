@@ -1,3 +1,4 @@
+# Provider block creation
 # Terraform Block
 terraform {
   required_version = "~>1.2.0"
@@ -14,6 +15,6 @@ terraform {
 provider "aws" {
 
     region = "us-east-1"
-    profile = "default"
+    profile = "default"  //shared credential file (authentication)
   
 }
