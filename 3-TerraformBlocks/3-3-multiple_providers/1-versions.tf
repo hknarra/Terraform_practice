@@ -20,6 +20,6 @@ provider "aws" {
 provider "aws" {
     region = "us-west-1"
     profile = "default"
-    alias = "aws-west-1"  # Give alias for non default provider s
+    alias = "aws-west-1"  # Give alias for non default provider
   
 }
