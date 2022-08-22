@@ -1,1 +1,1 @@
-ec2_instance_type  = "t3.large"
+ec2_instance_type = "t3.large"
