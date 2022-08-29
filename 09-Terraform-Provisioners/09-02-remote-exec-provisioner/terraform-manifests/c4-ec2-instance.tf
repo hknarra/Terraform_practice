@@ -16,7 +16,7 @@ resource "aws_instance" "my-ec2-vm" {
     host        = self.public_ip # Understand what is "self"
     user        = "ec2-user"
     password    = ""
-    private_key = file("private-key/terraform-key.pem")
+    private_key = file("private-key/your-terraform-key.pem")
   }
 
   # Copies the file-copy.html file to /tmp/file-copy.html
