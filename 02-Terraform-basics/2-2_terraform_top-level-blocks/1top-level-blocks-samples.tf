@@ -27,7 +27,7 @@ provider "aws" {
 #####################################################################
 # Block-3: Resource Block
 resource "aws_instance" "ec2demo" {
-  ami           = "ami-04d29b6f966df1537" # Amazon Linux
+  ami           = "ami-090fa75af13c156b4" # Amazon Linux
   instance_type = var.instance_type
 }
 #####################################################################
