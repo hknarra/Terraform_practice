@@ -10,7 +10,7 @@ terraform {
    # Adding Backend as S3 for Remote State Storage
   backend "s3" {
     bucket = "dev-hk-terraform-bucket"
-    key    = "dev/terraform.tfstate"
+    key    = "workspace/terraform.tfstate"
     region = "us-east-1"  
 
     # Enable during Step-09     
